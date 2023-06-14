@@ -31,17 +31,28 @@
       </widget>
      </item>
      <item>
-      <widget class="QLabel" name="cps_label">
-       <property name="frameShape">
-        <enum>QFrame::NoFrame</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Plain</enum>
-       </property>
-       <property name="text">
-        <string>cps</string>
-       </property>
-      </widget>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="cps_text_label">
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <property name="text">
+          <string>CPS</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="cps_label">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
      </item>
     </layout>
    </item>
@@ -50,7 +61,7 @@
      <item>
       <widget class="QLabel" name="refresh_time_label">
        <property name="text">
-        <string>Refresh time</string>
+        <string>Refresh time (sec)</string>
        </property>
       </widget>
      </item>
