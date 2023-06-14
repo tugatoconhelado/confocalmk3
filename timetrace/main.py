@@ -5,7 +5,7 @@ from PySide2.QtWidgets import QApplication, QMainWindow, QWidget
 import pyqtgraph as pg
 from PySide2.QtCore import Qt, QThread, Signal, Slot
 import nidaqmx
-from run_cps import Ui_record_cps
+from ui_timetrace import Ui_timetrace
 
 
 class DAQReader(QThread):
@@ -116,7 +116,7 @@ class DAQReader(QThread):
         self.running = False
 
 
-class MainWindow(QWidget, Ui_record_cps):
+class MainWindow(QWidget, Ui_timetrace):
     def __init__(self, daq_reader):
         super().__init__()
 
