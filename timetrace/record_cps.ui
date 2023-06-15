@@ -111,7 +111,7 @@ color: rgb(255, 0, 0);</string>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="samples_avg_edit">
+      <widget class="QLineEdit" name="window_time_edit">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
          <horstretch>0</horstretch>

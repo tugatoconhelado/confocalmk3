@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'record_cpsQsUsPT.ui'
+## Form generated from reading UI file 'record_cpsLzXyRg.ui'
 ##
-## Created by: Qt User Interface Compiler version 5.15.9
+## Created by: Qt User Interface Compiler version 5.15.2
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
 
-from PySide2.QtCore import *  # type: ignore
-from PySide2.QtGui import *  # type: ignore
-from PySide2.QtWidgets import *  # type: ignore
+from PySide2.QtCore import *
+from PySide2.QtGui import *
+from PySide2.QtWidgets import *
 
 from pyqtgraph import PlotWidget
 
@@ -95,12 +95,12 @@ class Ui_timetrace(object):
 
         self.acquisition_cps_layout.addWidget(self.samp_avg_label)
 
-        self.samples_avg_edit = QLineEdit(timetrace)
-        self.samples_avg_edit.setObjectName(u"samples_avg_edit")
-        sizePolicy.setHeightForWidth(self.samples_avg_edit.sizePolicy().hasHeightForWidth())
-        self.samples_avg_edit.setSizePolicy(sizePolicy)
+        self.window_time_edit = QLineEdit(timetrace)
+        self.window_time_edit.setObjectName(u"window_time_edit")
+        sizePolicy.setHeightForWidth(self.window_time_edit.sizePolicy().hasHeightForWidth())
+        self.window_time_edit.setSizePolicy(sizePolicy)
 
-        self.acquisition_cps_layout.addWidget(self.samples_avg_edit)
+        self.acquisition_cps_layout.addWidget(self.window_time_edit)
 
 
         self.verticalLayout_6.addLayout(self.acquisition_cps_layout)
